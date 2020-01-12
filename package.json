@@ -1,0 +1,19 @@
+{
+  "name": "UOS-Advanced-Web-Design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "grunt": "^1.0.4",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-ftp-push": "^1.2.1",
+    "grunt-sass": "^3.1.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.16.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,71 @@
+.slick-slider {
+    margin-left: 40px; // Add margin to give space for arrows
+    margin-right: 40px; // Add margin to give space for arrows
+
+    .slick-prev.slick-arrow {
+        z-index: 1;
+        width: 40px;
+        height: 35px;
+        left: -40px;
+
+        &::before {
+            font-size:40px;
+        }
+    }
+
+    .slick-next.slick-arrow {
+        z-index: 1;
+        width: 40px;
+        height: 35px;
+        right: -40px;
+
+        &::before {
+            font-size:40px;
+        }
+    }
+
+    &.buttons-inside {
+        margin-left: 0;
+        margin-right: 0;
+
+        .slick-prev.slick-arrow {
+            left: 30px;
+            z-index: 1;
+            width: 40px;
+            height: 35px;
+
+            &::before {
+                font-size:40px;
+            }
+        }
+
+        .slick-next.slick-arrow {
+            right: 30px;
+            z-index: 1;
+            width: 40px;
+            height: 35px;
+
+            &::before {
+                font-size:40px;
+            }
+        }
+    }
+
+    &.carousel {
+        height: 300px;
+
+        .carousel-slide {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+
+    .slick-slide{
+        height: auto;
+        min-height: 1px;
+        img{
+            max-width: 100vw !important;
+        }
+    }
+}

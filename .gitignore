@@ -1,0 +1,4 @@
+.ftpauth
+.ftpconfig
+/node_modules
+/vendor

@@ -1,0 +1,25 @@
+body.home-page {
+    .top-recipe-cards {
+        .slick-prev.slick-arrow,
+        .slick-next.slick-arrow {
+            &::before {
+                color: #000;
+            }
+        }
+
+        .slick-slide {
+            margin: 20px;
+
+            .recipe-card-image {
+                width: 100%;
+                height: 200px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        }
+    }
+}

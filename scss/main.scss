@@ -1,0 +1,23 @@
+// Abstract
+@import 'abstract/variables';
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/slick-carousel/slick/slick.scss';
+@import '../node_modules/slick-carousel/slick/slick-theme.scss';
+
+// Base
+@import 'base/typography';
+
+// Layouts
+@import 'layouts/body',
+        'layouts/header',
+        'layouts/footer',
+        'layouts/nav';
+
+// Components
+@import 'components/carousel',
+        'components/hero',
+        'components/recipe-grid';
+
+// Pages
+@import 'pages/home';
